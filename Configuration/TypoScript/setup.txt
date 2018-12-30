@@ -1,0 +1,11 @@
+config.sys_language_uid = 3
+
+
+plugin.tx_themes {
+	_LOCAL_LANG {
+		no {
+			callUs_label = Telefon:
+			emailUs_label = E-post:
+		}
+	}
+}

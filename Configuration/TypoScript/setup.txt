@@ -1,3 +1,5 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_t3kit/Configuration/TypoScript/setup.txt">
+
 config.sys_language_uid = 3
 
 

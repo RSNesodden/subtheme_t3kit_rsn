@@ -1,5 +1,5 @@
 {
-  "name": "pixelant/subtheme_t3kit_rsn",
+  "name": "pixelant/subtheme-t3kit-rsn",
   "description": "t3kit subtheme for nesodden.steinerskolen.no.",
   "type": "typo3-cms-extension",
   "keywords": ["t3kit", "typo3", "cms", "starter"],
@@ -30,5 +30,8 @@
   "minimum-stability": "dev",
   "require": {
     "t3kit/theme-t3kit": "~2.9.0"
+  },
+  "replace": {
+    "subtheme_t3kit_rsn": "self.version"
   }
 }

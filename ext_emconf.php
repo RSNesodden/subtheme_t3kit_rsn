@@ -1,8 +1,8 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-    'title' => 'Subtheme t3kit template',
-    'description' => 'TBD',
+    'title' => 't3kit Subtheme',
+    'description' => 't3kit subtheme for nesodden.steinerskolen.no',
     'category' => 'templates',
     'shy' => 0,
     'version' => '1.7.0',
@@ -17,9 +17,9 @@ $EM_CONF[$_EXTKEY] = array(
     'modify_tables' => '',
     'clearcacheonload' => 0,
     'lockType' => '',
-    'author' => 't3kit Team',
-    'author_email' => '',
-    'author_company' => '',
+    'author' => 'Mathias Bolt Lesniak',
+    'author_email' => 'mathias@pixelant.no',
+    'author_company' => 'Pixelant',
     'CGLcompliance' => '',
     'CGLcompliance_note' => '',
     'constraints' => array(

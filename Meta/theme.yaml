@@ -1,11 +1,11 @@
 # Name and description of the theme (required)
-title            : Subtheme t3kit template
+title            : RSN t3kit template
 version          : 1.7.0
 description      :  |
   subtheme_t3kit_template based on t3kit project.
 
 parentTheme:
-  name: theme_t3kit
+  name: theme_t3kitx
 
 # Keywords (optional)
 keywords:
@@ -18,5 +18,5 @@ keywords:
 screenshots:
   -
     file           : EXT:subtheme_t3kit_template/Meta/Screenshots/screenshot.png
-    caption        : Subtheme t3kit template
+    caption        : RSN t3kit template
 

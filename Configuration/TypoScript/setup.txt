@@ -26,3 +26,6 @@ page {
 }
 
 [global]
+
+# Removing google font includes
+page.headerData.186 >

@@ -1,3 +1,14 @@
+
+@rsn-blue:              #34437E;
+@rsn-blue-medium:       #6c6e9b;
+@rsn-blue-light:        #a9a8c3;
+@rsn-red:               #A52B38;
+@rsn-red-medium:        #bb7265;
+@rsn-red-light:         #d6b0a3;
+@rsn-yellow:            #efc031;
+@rsn-yellow-medium:     #f4d276;
+@rsn-yellow-light:      #f9e5b5;
+
 // Custom Variables
 // Custom media queries breakpoints
 @screen-xs--custom: 520px;
@@ -5,7 +16,7 @@
 @screen-lg--custom: 1300px;
 
 // Primary color
-@main-color:                    #f86230;
+@main-color:                    @rsn-blue;
 
 // BODY
 @main-body-bg:                  #fff;
@@ -16,13 +27,13 @@
 @main-link-hover-color:         tint(@main-color, 30%);
 
 // HEADER
-@header-top-height:             50px;
+@header-top-height:             30px;
 @header-top-bg-color:           @main-body-bg;
 @header-top-color:              fade(@main-text-color, 50%);
 @header-top-search-border-color: @border-color;
 
-@header-middle-height:          110px;
-@header-middle-bg-color:        @main-body-bg;
+@header-middle-height:          100px;
+@header-middle-bg-color:        @rsn-blue;
 @header-border-color:           @border-color;
 
 // Header middle search form
@@ -32,9 +43,9 @@
 @search-text-color: @main-text-color;
 
 // Logo
-@logo-top:                      25px;
-@logo-left:                     16px;
-@logo-width:                    120px;
+@logo-top:                      30px;
+@logo-left:                     15px;
+@logo-width:                    470px;
 
 // Navigation
 @nav-height:                    60px;
@@ -114,11 +125,11 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         darken(#428bca, 6.5%); // #337ab7
+@brand-primary:         @rsn-blue;
 @brand-success:         #5cb85c;
-@brand-info:            #5bc0de;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
+@brand-info:            @rsn-blue-light;
+@brand-warning:         @rsn-yellow;
+@brand-danger:          @rsn-red;
 
 
 //== Scaffolding
@@ -244,9 +255,9 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              #333;
-@btn-default-bg:                 #fff;
-@btn-default-border:             #ccc;
+@btn-default-color:              #FFFFFF;
+@btn-default-bg:                 #A52B38;
+@btn-default-border:             #A52B38;
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;

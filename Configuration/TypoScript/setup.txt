@@ -11,3 +11,18 @@ plugin.tx_themes {
 		}
 	}
 }
+
+[globalVar = LIT:less = {$themes.configuration.feLayoutMode}]
+
+page {
+    includeCSS {
+        customLess >
+        customLess = {$themes.configuration.feLayoutPath}/less/custom.less
+        customLess {
+            #excludeFromConcatenation =
+            #disableCompression =
+        }
+    }
+}
+
+[global]
